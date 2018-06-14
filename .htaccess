@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{REQUEST_URI} !\.(jpg|png|css|js)$
+    RewriteRule ^(.*)/?$ public/index.php [QSA,L]
+</IfModule>

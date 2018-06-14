@@ -1,0 +1,14 @@
+SuperConfig:
+  docroot: "/var/www/html/aerith"
+
+Database:
+  dbhost: "localhost"
+  dbname: "aerith"
+  dbuser: "root"
+  dbpassword: "Jenny<3.,."
+  dbprefix: "aerith_"
+
+Debugging: #Nothing here works yet lol so don't bother
+  sql: 0 #0: no debugging, 1: logging all SQLs in logs, 2: debugging on screen
+  template: 0 #0: no debugging, 1: logging with smarty-pop-up, 2: pop-up and showing template names
+  errors: 0 #0: only fatal error logging, 1: log fatal errors and warning, 2: log everything
